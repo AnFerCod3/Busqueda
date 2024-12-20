@@ -10,7 +10,7 @@ Busqueda es una máquina de Hack The Box que se enfoca en la explotación de vul
 
 El primer paso fue realizar un escaneo con nmap para identificar puertos abiertos y servicios disponibles en la máquina. Ejecuté el siguiente comando:
 
-nmap -p- -sV -T4 10.10.11.208 -v -v10 -sT --min-rate 50000
+nmap -p- -sV -T4 10.10.11.208 -v -v10 -sT --min-rate 5000
 
 
 El resultado mostró los puertos abiertos:
